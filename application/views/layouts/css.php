@@ -1,0 +1,51 @@
+<base href="">
+<meta charset="utf-8" />
+<meta name="description" content="Dashboard" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<!--begin::Fonts-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+<!--end::Fonts-->
+<!--begin::Page Vendors Styles(used by this page)-->
+<link href="<?php echo base_url('assets/plugins/custom/fullcalendar/fullcalendar.bundle.css') ?>" rel="stylesheet"
+    type="text/css" />
+<!--end::Page Vendors Styles-->
+<!--begin::Global Theme Styles(used by all pages)-->
+<link href="<?php echo base_url('assets/plugins/global/plugins.bundle.css') ?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url('assets/plugins/custom/prismjs/prismjs.bundle.css') ?>" rel="stylesheet"
+    type="text/css" />
+<link href="<?php echo base_url('assets/css/style.bundle.css') ?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url('assets/css/preloaders.css') ?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url('assets/css/custom.css') ?>" rel="stylesheet" type="text/css" />
+<!--end::Global Theme Styles-->
+<!--begin::Layout Themes(used by all pages)-->
+<!--end::Layout Themes-->
+<link rel="shortcut icon" href="<?php echo base_url('assets/img/icon.png') ?>" />
+
+<!--begin::Global Theme Styles(used by all pages)-->
+<link href="assets/plugins/global/plugins.bundle.css?v=7.0.6" rel="stylesheet" type="text/css" />
+<link href="assets/plugins/custom/prismjs/prismjs.bundle.css?v=7.0.6" rel="stylesheet" type="text/css" />
+<link href="assets/css/style.bundle.css?v=7.0.6" rel="stylesheet" type="text/css" />
+<!--end::Global Theme Styles-->
+
+<!-- detail foto -->
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+<link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+
+
+<link rel="stylesheet" href="assets/css/aos.css">
+<link rel="stylesheet" href="assets/css/fancybox.min.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- detail video -->
+
+<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+	<link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+
+
+<!-- ticker -->
+<link rel="stylesheet" href="assets/css/ticker.css">
