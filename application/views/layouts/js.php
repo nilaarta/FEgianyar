@@ -145,7 +145,6 @@
 
 
 <!-- ticker -->
-
-<script src="/path/to/jquery.min.js"></script>
-
-<script src="assets/js/ticker.js"></script>
+<!-- <script type="text/javascript" src="assets/js/ticker/jquery.js"></script> -->
+	<script type="text/javascript" src="assets/js/ticker/jquery.vticker-min.js"></script>
+	

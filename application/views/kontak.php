@@ -13,89 +13,132 @@
                     <div class="d-flex flex-column-fluid">
                         <!--begin::Container-->
                         <div class=" container ">
+                            <div class="row">
+                                <!--begin::Card-->
+                                <div class="col-xl-4">
+                                    <div class="card card-custom gutter-b">
+                                        <div class="card-header">
+                                            <div class="card-title">
+                                                <h5 class="card-label">
+                                                    Kontak
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <!--begin::Form-->
+
+                                        <div class="card-body" style="    padding-top: 0px;">
+                                            <div class="col-xl-12">
+                                                <div class="py-9">
+                                                    <div class="d-flex align-items-center justify-content-between mb-2">
+                                                        <span class="font-weight-bold mr-2">Email:</span>
+                                                        <a href="#"
+                                                            class="text-muted text-hover-primary">matt@fifestudios.com</a>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mb-2">
+                                                        <span class="font-weight-bold mr-2">Phone:</span>
+                                                        <span class="text-muted">44(76)34254578</span>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between mb-2">
+                                                        <span class="font-weight-bold mr-2">Fax:</span>
+                                                        <span class="text-muted">44(76)34254578</span>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <span class="font-weight-bold mr-2">Alamat:</span>
+                                                        <span class="text-muted text-right">Jln. Ngurah Rai No. 5 - 7 Gianyar, Bali</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
 
-                            <!--begin::Card-->
-                            <div class="card card-custom gutter-b">
-                                <div class="card-header">
-                                    <div class="card-title">
-                                        <h5 class="card-label">
-                                            Hubungi Kamu
-                                        </h5>
+                                        <!--end::Form-->
                                     </div>
+                                    <!--end::Card-->
                                 </div>
-                                <!--begin::Form-->
-                                <form class="form">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-xl-3"></div>
-                                            <div class="col-xl-6">
-                                                <!--begin::Input-->
-                                                <div class="form-group">
-                                                    <label>Nama</label>
-                                                    <input type="text"
-                                                        class="form-control form-control-solid form-control-lg"
-                                                        placeholder="Masukkan nama" />
-                                                </div>
-                                                <!--end::Input-->
 
-                                                <!--begin::Input-->
-                                                <div class="form-group">
-                                                    <label>Alamat</label>
-                                                    <input type="text"
-                                                        class="form-control form-control-solid form-control-lg"
-                                                        placeholder="Masukkan alamat" />
-                                                </div>
-                                                <!--end::Input-->
+                                <div class="col-xl-8">
 
-                                                <!--begin::Input-->
-                                                <div class="form-group">
-                                                    <label>E-mail</label>
-                                                    <input type="email"
-                                                        class="form-control form-control-solid form-control-lg"
-                                                        placeholder="masukkan email" />
-                                                </div>
-                                                <!--end::Input-->
-                                                <!--begin::Input-->
-                                                <div class="form-group">
-                                                    <label>Judul</label>
-                                                    <input type="text"
-                                                        class="form-control form-control-solid form-control-lg"
-                                                        placeholder="Masukkan judul" />
-                                                </div>
-                                                <!--end::Input-->
-
-                                                <!--begin::Input-->
-                                                <div class="form-group">
-                                                    <label for="exampleTextarea">Isi</label>
-                                                    <textarea class="form-control form-control-solid form-control-lg"
-                                                        id="exampleTextarea" rows="3"></textarea>
-                                                    <span class="form-text text-muted">Masukkan isi</span>
-                                                </div>
-                                                <!--end::Input-->
+                                    <!--begin::Card-->
+                                    <div class="card card-custom gutter-b">
+                                        <div class="card-header">
+                                            <div class="card-title">
+                                                <h5 class="card-label">
+                                                    Hubungi Kamu
+                                                </h5>
                                             </div>
-                                            <div class="col-xl-3"></div>
                                         </div>
-                                    </div>
+                                        <!--begin::Form-->
+                                        <form class="form">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-xl-12">
+                                                        <!--begin::Input-->
+                                                        <div class="form-group">
+                                                            <label>Nama</label>
+                                                            <input type="text"
+                                                                class="form-control form-control-solid form-control-lg"
+                                                                placeholder="Masukkan nama" />
+                                                        </div>
+                                                        <!--end::Input-->
 
-                                    <!--begin::Actions-->
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col-xl-3"></div>
-                                            <div class="col-xl-6">
-                                                <button type="reset"
-                                                    class="btn btn-primary font-weight-bold mr-2">Kirim</button>
+                                                        <!--begin::Input-->
+                                                        <div class="form-group">
+                                                            <label>Alamat</label>
+                                                            <input type="text"
+                                                                class="form-control form-control-solid form-control-lg"
+                                                                placeholder="Masukkan alamat" />
+                                                        </div>
+                                                        <!--end::Input-->
+
+                                                        <!--begin::Input-->
+                                                        <div class="form-group">
+                                                            <label>E-mail</label>
+                                                            <input type="email"
+                                                                class="form-control form-control-solid form-control-lg"
+                                                                placeholder="masukkan email" />
+                                                        </div>
+                                                        <!--end::Input-->
+                                                        <!--begin::Input-->
+                                                        <div class="form-group">
+                                                            <label>Judul</label>
+                                                            <input type="text"
+                                                                class="form-control form-control-solid form-control-lg"
+                                                                placeholder="Masukkan judul" />
+                                                        </div>
+                                                        <!--end::Input-->
+
+                                                        <!--begin::Input-->
+                                                        <div class="form-group">
+                                                            <label for="exampleTextarea">Isi</label>
+                                                            <textarea
+                                                                class="form-control form-control-solid form-control-lg"
+                                                                id="exampleTextarea" rows="3"></textarea>
+                                                            <span class="form-text text-muted">Masukkan isi</span>
+                                                        </div>
+                                                        <!--end::Input-->
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="col-xl-3"></div>
-                                        </div>
+
+                                            <!--begin::Actions-->
+                                            <div class="card-footer">
+                                                <div class="row">
+                                                    <div class="col-xl-3"></div>
+                                                    <div class="col-xl-6">
+                                                        <button type="reset"
+                                                            class="btn btn-primary font-weight-bold mr-2">Kirim</button>
+                                                    </div>
+                                                    <div class="col-xl-3"></div>
+                                                </div>
+                                            </div>
+                                            <!--end::Actions-->
+                                        </form>
+                                        <!--end::Form-->
                                     </div>
-                                    <!--end::Actions-->
-                                </form>
-                                <!--end::Form-->
+                                    <!--end::Card-->
+                                </div>
+
                             </div>
-                            <!--end::Card-->
-
-
                         </div>
                         <!--end::Container-->
                     </div>

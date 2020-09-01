@@ -99,32 +99,16 @@
 <div class="subheader py-2 py-lg-12  subheader-transparent " id="kt_subheader">
     <div class=" container  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
         <!--begin::Info-->
-        <div class="d-flex align-items-center flex-wrap mr-1">
+        <div id="news-container1" style="overflow: hidden; position: relative; width: 60%;">
+            <ul> 
+                <li style="margin: 0pt; padding: 0pt; height: 100%; display: list-item;">
+                    <h1 class="text-white"  style="margin: 0pt; padding: 0pt;">
+                        Selamat Ulang Tahun Indonesia Ke75 Selamat Ulang Tahun Indonesia Ke75
+                       
+                    </h1>
+                </li>
 
-            <!--begin::Heading-->
-            <div class="d-flex flex-column">
-                <!--begin::Title-->
-                <div class="ticker-container">
-                    <ul>
-                        <div>
-                            <li><span class="text-white font-weight-bold my-2 mr-5">Breaking News 1 </span></li>
-                        </div>
-                        <div>
-                            <li><span>Breaking News 2</span></li>
-                        </div>
-                     
-                    </ul>
-                </div>
-                <h1 class="text-white font-weight-bold my-2 mr-5">
-                    DIRGAHAYU INDONESIA KE-75 </h1>
-                <!--end::Title-->
-
-                <!--begin::Breadcrumb-->
-
-                <!--end::Breadcrumb-->
-            </div>
-            <!--end::Heading-->
-
+            </ul>
         </div>
         <!--end::Info-->
 
@@ -136,16 +120,33 @@
             <!--end::Title-->
 
             <!--begin::Breadcrumb-->
-            <div class="d-flex align-items-center font-weight-bold my-2">
                 <!--begin::Item-->
                 <a class="text-white text-hover-white opacity-75 hover-opacity-100">
                     Jumat, 17 Agustus 2020 </a>
                 <!--end::Item-->
 
-            </div>
             <!--end::Breadcrumb-->
         </div>
         <!--end::Heading-->
     </div>
 </div>
 <!--end::Subheader-->
+
+<script type="text/javascript">
+    $(function () {
+        $('#news-container').vTicker({
+            speed: 500,
+            pause: 3000,
+            animation: 'fade',
+            mousePause: false,
+            showItems: 3
+        });
+        $('#news-container1').vTicker({
+            speed: 700,
+            pause: 4000,
+            animation: 'fade',
+            mousePause: false,
+            showItems: 1
+        });
+    });
+</script>
