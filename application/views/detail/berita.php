@@ -58,21 +58,75 @@
                             padding-top: 0px;
                             padding-bottom: 0px;
                         ">
-                        <div class="card card-custom bgi-no-repeat gutter-b"
-                            style="height: auto; background-position: calc(100% + 0.5rem) 100%; background-size: 100% auto; ">
+                        <div id="gallery" style="display:none;">
 
-                            <!--begin::Body-->
-                            <img src="assets/img/berita/1.jpg" class="d-block w-100 rounded" alt="...">
+                            <img alt="Preview Image 1" src="images/thumbs/thumb1.jpg" data-image="images/big/image1.jpg"
+                                data-description="Preview Image 1 Description">
 
-                            <!--end::Body-->
+                            <img alt="Preview Image 2" src="images/thumbs/thumb2.jpg" data-image="images/big/image2.jpg"
+                                data-description="Preview Image 2 Description">
+
+                            <img alt="Youtube Video" data-type="youtube" data-videoid="A3PDXmYoF5U"
+                                data-description="You can include youtube videos easily!">
+
+                            <img alt="Preview Image 3" src="images/thumbs/thumb3.jpg" data-image="images/big/image3.jpg"
+                                data-description="Preview Image 3 Description">
+
+                            <img alt="Vimeo Video" data-type="vimeo"
+                                src="http://i.vimeocdn.com/video/447294219_200x150.jpg"
+                                data-image="http://i.vimeocdn.com/video/447294219_640.jpg" data-videoid="73234449"
+                                data-description="This gallery can also play vimeo videos!">
+
+                            <img alt="Preview Image 4" src="images/thumbs/thumb4.jpg" data-image="images/big/image4.jpg"
+                                data-description="Preview Image 4 Description">
+
+                            <img alt="Html5 Video" src="images/thumbs/html5_video.png" data-type="html5video"
+                                data-image="http://vjs.zencdn.net/v/oceans.png"
+                                data-videoogv="http://vjs.zencdn.net/v/oceans.ogv"
+                                data-videowebm="http://vjs.zencdn.net/v/oceans.webm"
+                                data-videomp4="http://vjs.zencdn.net/v/oceans.mp4"
+                                data-description="This is html5 video demo played by mediaelement2 player">
+
+                            <img alt="Preview Image 5" src="images/thumbs/thumb1.jpg" data-image="images/big/image1.jpg"
+                                data-description="Preview Image 5 Description">
+
+                            <img alt="Wistia Video" src="images/thumbs/wistia_video.jpg" data-type="wistia"
+                                data-image="images/big/wistia_video.jpg" data-videoid="9oedgxuciv"
+                                data-description="Hey, the gallery plays Wistia videos too!">
+
+                            <img alt="Preview Image 6" src="images/thumbs/thumb2.jpg" data-image="images/big/image2.jpg"
+                                data-description="Preview Image 6 Description">
+
+
+                            <img alt="Sound Cloud Track" src="images/thumbs/sound_cloud.jpg" data-type="soundcloud"
+                                data-image="images/thumbs/sound_cloud.jpg" data-trackid="8390970"
+                                data-description="This gallery can play a soundcloud track">
+
+
+                            <img alt="Preview Image 7" src="images/thumbs/thumb3.jpg" data-image="images/big/image3.jpg"
+                                data-description="Preview Image 7 Description">
+
+
+                            <img alt="Preview Image 8" src="images/thumbs/thumb4.jpg" data-image="images/big/image4.jpg"
+                                data-description="Preview Image 8 Description">
+
+                            <img alt="Preview Image 9" src="images/thumbs/thumb1.jpg" data-image="images/big/image1.jpg"
+                                data-description="Preview Image 9 Description">
+
+                            <img alt="Preview Image 10" src="images/thumbs/thumb2.jpg"
+                                data-image="images/big/image2.jpg" data-description="Preview Image 10 Description">
+
+                            <img alt="Preview Image 11" src="images/thumbs/thumb3.jpg"
+                                data-image="images/big/image3.jpg" data-description="Preview Image 11 Description">
+
                         </div>
                         <!--end::Engage Widget 4-->
                     </div>
 
                     <div class="card-body">
                         <p>
-                            asddddddddddddddddddddddddddddddddddddddd 
-</p>
+                            asddddddddddddddddddddddddddddddddddddddd
+                        </p>
                     </div>
                 </div>
 
@@ -87,3 +141,12 @@
     <!--end::Container-->
 </div>
 <!--end::Entry-->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+
+        jQuery("#gallery").unitegallery({
+            theme_enable_text_panel: false
+        });
+
+    });
+</script>
