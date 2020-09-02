@@ -40,86 +40,33 @@
 						<!--end: Search Form-->
 
 						<!--begin: Datatable-->
-						<div class="table-responsive">
-							<table class="table table-sm" id="kt_datatable">
-								<thead>
-									<tr>
-										<th style="height: 200px !important">Nama Instansi</th>
-										<th >Alamat</th>
-										<th >Telp</th>
-										<th >Email</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Bupati Gianyar</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-									</tr>
-									<tr>
-										<td>Administrasi Pemerintahan dan Kesejahteraan Rakyat</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-									</tr>
-									<tr>
-										<td>BAdministrasi Pemerintahan dan Kesejahteraan Rakyat</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-										<td> perwat@gianyarkab.go.id</td>
-									</tr>
-									<tr>
-										<td>Bupati Gianyar</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-									</tr>
-									<tr>
-										<td>Administrasi Pemerintahan dan Kesejahteraan Rakyat</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-									</tr>
-									<tr>
-										<td>3. BAdministrasi Pemerintahan dan Kesejahteraan Rakyat</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-										<td> perwat@gianyarkab.go.id</td>
-									</tr>
-									<tr>
-										<td>1. Bupati Gianyar</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-									</tr>
-									<tr>
-										<td>2. Administrasi Pemerintahan dan Kesejahteraan Rakyat</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-									</tr>
-									<tr>
-										<td>3. BAdministrasi Pemerintahan dan Kesejahteraan Rakyat</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-										<td> perwat@gianyarkab.go.id</td>
-									</tr>
-									<tr>
-										<td>1. Bupati Gianyar</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-									</tr>
-									<tr>
-										<td>2. Administrasi Pemerintahan dan Kesejahteraan Rakyat</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-									</tr>
-									<tr>
-										<td>3. BAdministrasi Pemerintahan dan Kesejahteraan Rakyat</td>
-										<td>Jln. Ngurah Rai No. 5 - 7 Gianyar</td>
-										<td>(0361) 944123</td>
-										<td> perwat@gianyarkab.go.id</td>
-									</tr>
+						<div class="card-body">
+                        <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Nama Instansi</th>
+                                    <th>Alamat</th>
+									<th>Telp</th>
+									<th>Email</th>
 
-								</tbody>
-							</table>
-							<!--end: Datatable-->
-						</div>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                               
+                                <tr>
+                                    <td>1</td>
+                                    <td>Wintddddddddddddddddddddssssssssssers</td>
+                                    <td>Accountasdddsssssssssssssssssssssssant</td>
+                                    <td>Winasdddddddddddddddddddddddddddddddddters</td>
+                                    <td>Accountant</td>
+                                   
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
 					</div>
 
 				</div>
@@ -136,3 +83,9 @@
 	<!--end::Container-->
 </div>
 <!--end::Entry-->
+
+<script>
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>

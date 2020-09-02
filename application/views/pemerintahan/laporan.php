@@ -19,53 +19,38 @@
 
                     </div>
                     <div class="card-body">
-                        <table id="tables"
-                            class="table table-striped table-bordered nowrap dataTable no-footer dtr-inline collapsed"
-                            style="width: 100%;" role="grid" aria-describedby="example_info">
+                        <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
                             <thead>
-                                <tr role="row">
-                                    <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                        style="width: 69px;" aria-sort="ascending"
-                                        aria-label="First name: activate to sort column descending">No</th>
-                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                        style="width: 68px;" aria-label="Last name: activate to sort column ascending">
-                                        Tahun</th>
-                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                        style="width: 165px; display: none;"
-                                        aria-label="Position: activate to sort column ascending">Nama</th>
-                                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                        style="width: 0px; display: none;"
-                                        aria-label="Office: activate to sort column ascending">File</th>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Tahun</th>
+                                    <th>Nama</th>
+                                    <th>File</th>
+                                    
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr role="row" class="odd">
-                                    <td class="sorting_1 dtr-control" style="">1</td>
-                                    <td>2017</td>
-                                    <td >Laporan Lakip 2017</td>
-                                    <td ><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
+                                <tr>
+                                    <td>Tiger</td>
+                                    <td>Nixon</td>
+                                    <td>System Architect</td>
+                                    <td><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
                                             <img class="icon-sm"
                                                 src="assets/media/svg/icons/Files/DownloadedFile.svg" /> Download PDF
                                         </a></td>
+                                   
                                 </tr>
-                                <tr role="row" class="odd">
-                                    <td class="sorting_1 dtr-control" style="">2</td>
-                                    <td>2018</td>
-                                    <td >Laporan Lakip 2017</td>
-                                    <td ><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
+                                <tr>
+                                    <td>Garrett</td>
+                                    <td>Winters</td>
+                                    <td>Accountant</td>
+                                    <td><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
                                             <img class="icon-sm"
                                                 src="assets/media/svg/icons/Files/DownloadedFile.svg" /> Download PDF
                                         </a></td>
+                                   
                                 </tr>
-                                <tr role="row" class="odd">
-                                    <td class="sorting_1 dtr-control" style="">3</td>
-                                    <td>201</td>
-                                    <td >Laporan Lakip 2017</td>
-                                    <td ><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
-                                            <img class="icon-sm"
-                                                src="assets/media/svg/icons/Files/DownloadedFile.svg" /> Download PDF
-                                        </a></td>
-                                </tr>
+
                             </tbody>
                         </table>
                     </div>
@@ -81,9 +66,7 @@
 </div>
 <!--end::Entry-->
 <script>
-    $(document).ready(function () {
-        $('#tables').DataTable({
-            responsive: true
-        });
-    });
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
 </script>

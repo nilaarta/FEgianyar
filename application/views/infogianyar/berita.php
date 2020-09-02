@@ -32,6 +32,7 @@
                                     <div class="card-body" style="
                                             border-top-width: 5px;
                                         ">
+                                        <a href ="<?php echo site_url('/detailberita') ?>">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-xl-3" style="
@@ -62,32 +63,38 @@
                                                                 <!--begin::User-->
                                                                 <div class="mr-3">
                                                                     <!--begin::Name-->
-                                                                    <div class="h2">
+                                                                    <div class="h2 text-dark-65 text-hover-primary">
                                                                         Gianyar Segera Miliki Amdk Plat Merah Terbesar
                                                                         Di
                                                                         Indonesia
 
-                                                                    </div </div> <!--end::Name-->
+                                                                    </div> <!--end::Name-->
                                                                 </div>
                                                                 <!--begin::User-->
                                                             </div>
                                                             <!--end::Title-->
 
-                                                            <!--begin::Content-->
-                                                            <div
+                                                           <!--begin::Content-->
+                                                           <div
                                                                 class="d-flex align-items-center flex-wrap justify-content-between">
                                                                 <!--begin::Description-->
-                                                                <div class="flex-grow-1 font-weight-bold text-dark-50 py-2 py-lg-2 mr-5"
+                                                                <div data-maxlength="700"
+                                                                    class="text-box flex-grow-1 font-weight-bold text-dark-50 py-2 py-lg-2 mr-5"
                                                                     style="width:100%">
-                                                                    I distinguish three main text objectives could be
-                                                                    merely
-                                                                    I distinguish three main text objectives could be
-                                                                    merely
-                                                                    I distinguish three main text objectives could be
-                                                                    merely
-                                                                    I distinguish three main text objectives could be
-                                                                    merely
-
+                                                                    <p>
+                                                                        I distinguish three main text objectives could
+                                                                        be
+                                                                        merely
+                                                                        I distinguish three main text objectives could
+                                                                        be
+                                                                        merely
+                                                                        I distinguish three main text objectives could
+                                                                        be
+                                                                        merely
+                                                                        I distinguish three main text objectives could
+                                                                        be
+                                                                        merely
+                                                                    </p>
                                                                 </div>
                                                                 <!--end::Description-->
                                                             </div>
@@ -103,7 +110,7 @@
 
                                                     <!--begin::Date-->
                                                     <div class="d-flex flex-column flex-grow-1 mr-2">
-                                                        <span class="text font-weight-light text-right font-size-xs">
+                                                        <span class="text text-dark-65 font-weight-light text-right font-size-xs">
                                                             12
                                                             April 2020</span>
                                                     </div>
@@ -111,6 +118,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        </a>
                                     </div>
                                 </div>
                             <!--end::Card-->
@@ -634,9 +642,12 @@
 </div>
 <!--end::Entry-->
 <script>
-    $(document).ready(function () {
-        $('#tables').DataTable({
-            responsive: true
-        });
+    $(".text-box p").text(function (index, currentText) {
+        var maxLength = $(this).parent().attr('data-maxlength');
+        if (currentText.length >= maxLength) {
+            return currentText.substr(0, maxLength) + "...";
+        } else {
+            return currentText
+        }
     });
 </script>

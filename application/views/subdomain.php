@@ -19,62 +19,30 @@
                                 </div>
 
                                 <div class="card-body">
-                                    <!--begin: Datatable-->
-                                    <table class="table table-separate table-head-custom table-checkable"
-                                        id="kt_datatable1">
-                                        <thead>
-                                            <tr>
-                                                <th >No</th>
-                                                <th >Nama</th>
-                                                <th >Deskripsis</th>
-                                               
-                                            </tr>
-                                        </thead>
+                        <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Nama</th>
+                                    <th>Deskripsi</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tiger</td>
+                                    <td>Nixonsddddddddddddddsdsdsdssssssss</td>
+                                    <td>Sysdddddddddddddddddddddddddddddddddddddddddddddddtem Architect</td>                                  
+                                </tr>
+                                <tr>
+                                    <td>Garrett</td>
+                                    <td>Winters</td>
+                                    <td>Accountant</td>                                  
+                                </tr>
 
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>http://bappeda.gianyarkab.go.id/</td>
-                                                <td>Badan Perencanaan Pembangunan Daerah dan Litbang</td>
-                                               
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>http://bappeda.gianyarkab.go.id/</td>
-                                                <td>Badan Perencanaan Pembangunan Daerah dan Litbang</td>
-                                               
-                                            </tr><tr>
-                                                <td>3</td>
-                                                <td>http://bappeda.gianyarkab.go.id/</td>
-                                                <td>Badan Perencanaan Pembangunan Daerah dan Litbang</td>
-                                               
-                                            </tr><tr>
-                                                <td>4</td>
-                                                <td>http://bappeda.gianyarkab.go.id/</td>
-                                                <td>Badan Perencanaan Pembangunan Daerah dan Litbang</td>
-                                               
-                                            </tr><tr>
-                                                <td>5</td>
-                                                <td>http://bappeda.gianyarkab.go.id/</td>
-                                                <td>Badan Perencanaan Pembangunan Daerah dan Litbang</td>
-                                               
-                                            </tr><tr>
-                                                <td>6</td>
-                                                <td>http://bappeda.gianyarkab.go.id/</td>
-                                                <td>Badan Perencanaan Pembangunan Daerah dan Litbang</td>
-                                               
-                                            </tr><tr>
-                                                <td>7</td>
-                                                <td>http://bappeda.gianyarkab.go.id/</td>
-                                                <td>Badan Perencanaan Pembangunan Daerah dan Litbang</td>
-                                               
-                                            </tr>
-                                            
-                                        </tbody>
-
-                                    </table>
-                                    <!--end: Datatable-->
-                                </div>
+                            </tbody>
+                        </table>
+                    </div>
                             </div>
                             <!--end::Card-->
 
@@ -88,3 +56,8 @@
     <!--end::Container-->
 </div>
 <!--end::Entry-->
+<script>
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>

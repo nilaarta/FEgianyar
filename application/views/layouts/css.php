@@ -14,8 +14,7 @@
 <link href="<?php echo base_url('assets/plugins/custom/prismjs/prismjs.bundle.css') ?>" rel="stylesheet"
     type="text/css" />
 <link href="<?php echo base_url('assets/css/style.bundle.css') ?>" rel="stylesheet" type="text/css" />
-<link href="<?php echo base_url('assets/css/preloaders.css') ?>" rel="stylesheet" type="text/css" />
-<link href="<?php echo base_url('assets/css/custom.css') ?>" rel="stylesheet" type="text/css" />
+<!--  -->
 <!--end::Global Theme Styles-->
 <!--begin::Layout Themes(used by all pages)-->
 <!--end::Layout Themes-->
@@ -39,7 +38,7 @@
 <link rel="stylesheet" href="assets/css/aos.css">
 <link rel="stylesheet" href="assets/css/fancybox.min.css">
 
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style1.css">
 
 <!-- detail video -->
 
@@ -49,4 +48,9 @@
 
 <!-- ticker -->
 <link rel="stylesheet" href="assets/css/ticker.css">
+
+<!-- datatables -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css"> -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.5/css/responsive.bootstrap4.min.css">
 

@@ -70,12 +70,14 @@
 <!--begin::Page Scripts(used by this page)-->
 <script src="<?php echo base_url('assets/js/pages/widgets.js') ?>"></script>
 <script src="<?php echo base_url('assets/js/bootbox.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/js/pages/widgets.js?v=7.0.6') ?>"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.22/pdfmake.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js">
 </script>
-<!--end::Page Scripts-->
+<!-- end::Page Scripts-->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v8.0"
     nonce="BAWXgPnr"></script>
@@ -84,67 +86,54 @@
 
 <!-- Leaflet (JS/CSS) -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css">
-	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
 
-	<!-- Leaflet-Pointable -->
-	<script src="https://unpkg.com/leaflet-pointable@0.0.3/leaflet-pointable.js"></script>
-	
-	<!-- Leaflet-KMZ -->
-	<script src="https://unpkg.com/leaflet-kmz@0.3.0/dist/leaflet-kmz.js"></script>
+<!-- Leaflet-Pointable -->
+<script src="https://unpkg.com/leaflet-pointable@0.0.3/leaflet-pointable.js"></script>
 
-
-<link href="assets/plugins/custom/datatables/datatables.bundle.css?v=7.0.6" rel="stylesheet" type="text/css" />
-
-
-<!--begin::Page Scripts(used by this page)-->
-<script src="assets/js/pages/crud/ktdatatable/base/html-table.js?v=7.0.6"></script>
-<!--end::Page Scripts-->
-<!--begin::Page Vendors Styles(used by this page)-->
-<link href="assets/plugins/custom/datatables/datatables.bundle.css?v=7.0.6" rel="stylesheet" type="text/css" />
-<!--end::Page Vendors Styles-->
-
-<!--begin::Page Vendors(used by this page)-->
-<script src="assets/plugins/custom/ckeditor/ckeditor-document.bundle.js?v=7.0.6"></script>
-<!--end::Page Vendors-->
-
-<!--begin::Page Scripts(used by this page)-->
-<script src="assets/js/pages/crud/forms/editors/ckeditor-document.js?v=7.0.6"></script>
-<!--end::Page Scripts-->
-<!--begin::Page Vendors(used by this page)-->
-<script src="assets/plugins/custom/datatables/datatables.bundle.js?v=7.0.6"></script>
-<!--end::Page Vendors-->
-
-<!--begin::Page Scripts(used by this page)-->
-<script src="assets/js/pages/crud/datatables/extensions/responsive.js?v=7.0.6"></script>
-<!--end::Page Scripts-->
+<!-- Leaflet-KMZ -->
+<script src="https://unpkg.com/leaflet-kmz@0.3.0/dist/leaflet-kmz.js"></script>
 
 <!-- detail foto -->
 <script src="assets/js/jquery-3.3.1.min.js"></script>
-  <script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="assets/js/jquery-ui.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/jquery.stellar.min.js"></script>
-  <script src="assets/js/jquery.countdown.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/bootstrap-datepicker.min.js"></script>
-  <script src="assets/js/aos.js"></script>
+<script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<!-- <script src="assets/js/bootstrap.min.js"></script> -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/jquery.stellar.min.js"></script>
+<script src="assets/js/jquery.countdown.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/bootstrap-datepicker.min.js"></script>
+<script src="assets/js/aos.js"></script>
 
-  <script src="assets/js/jquery.fancybox.min.js"></script>
-  <script src="assets/js/main.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<script src="assets/js/main.js"></script>
 
 <!-- detail video -->
-  <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
-    <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>	
-    <script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
+<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
+<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
+<script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
 
-	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
-	<link rel='stylesheet' 		  href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+<link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
 
 
 
 <!-- ticker -->
 <!-- <script type="text/javascript" src="assets/js/ticker/jquery.js"></script> -->
-	<script type="text/javascript" src="assets/js/ticker/jquery.vticker-min.js"></script>
-	
+<script type="text/javascript" src="assets/js/ticker/jquery.vticker-min.js"></script>
+
+<!-- data tables -->
+<script type='text/javascript' src='https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js'></script>
+<script type='text/javascript' src='https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js'></script>
+<script type='text/javascript' src='https://cdn.datatables.net/responsive/2.2.5/js/dataTables.responsive.min.js'>
+</script>
+<script type='text/javascript' src='https://cdn.datatables.net/responsive/2.2.5/js/responsive.bootstrap4.min.js'>
+</script>
+
+<!--begin::Page Scripts(used by this page)-->
+<script src="assets/js/pages/widgets.js?v=7.0.6"></script>
+<script src="assets/js/pages/custom/profile/profile.js?v=7.0.6"></script>
+<!--end::Page Scripts -->
+

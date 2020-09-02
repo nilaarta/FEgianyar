@@ -19,61 +19,33 @@
                                 </div>
 
                                 <div class="card-body">
-                                    <!--begin: Datatable-->
-                                    <table class="table table-separate table-head-custom table-checkable"
-                                        id="kt_datatable1">
-                                        <thead>
-                                            <tr>
-                                                <th >No</th>
-                                                <th >Instansi</th>
-                                                <th >Telepon</th>
-                                               
-                                            </tr>
-                                        </thead>
+                        <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Instansi</th>
+                                    <th>Telepon</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tiger</td>
+                                    <td>Nixon</td>
+                                    <td>System Architect</td>
+                                    
+                                   
+                                </tr>
+                                <tr>
+                                    <td>Garrett</td>
+                                    <td>Winters</td>
+                                    <td>Accountant</td>
+                                   
+                                </tr>
 
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>POLRES/</td>
-                                                <td>0361 - 943233, 942390</td>
-                                               
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>AMBULANCE</td>
-                                                <td>0361 - 943233, 942390</td>
-                                               
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>PDAM</td>
-                                                <td>0361 - 943233, 942390</td>
-                                               
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>POLRES/</td>
-                                                <td>0361 - 943233, 942390</td>
-                                               
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>AMBULANCE</td>
-                                                <td>0361 - 943233, 942390</td>
-                                               
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>PDAM</td>
-                                                <td>0361 - 943233, 942390</td>
-                                               
-                                            </tr>
-                                            
-                                        </tbody>
-
-                                    </table>
-                                    <!--end: Datatable-->
-                                </div>
+                            </tbody>
+                        </table>
+                    </div>
                             </div>
                             <!--end::Card-->
 
@@ -87,3 +59,8 @@
     <!--end::Container-->
 </div>
 <!--end::Entry-->
+<script>
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>

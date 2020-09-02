@@ -19,79 +19,40 @@
                     </div>
 
                     <div class="card-body">
-                        <!--begin: Datatable-->
-                        <table class="table table-separate table-head-custom table-checkable" id="kt_datatable1">
+                        <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>No</th>
                                     <th>Tahun</th>
                                     <th>Nama</th>
                                     <th>File</th>
-
-
+                                    
                                 </tr>
                             </thead>
-
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>2017</td>
-                                    <td>Koran PASWARA Edisi 1 Tahun 2017</td>
+                                    <td>Tiger</td>
+                                    <td>Nixon</td>
+                                    <td>System Architect</td>
                                     <td><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
-                                            <img class="icon-md"
+                                            <img class="icon-sm"
                                                 src="assets/media/svg/icons/Files/DownloadedFile.svg" /> Download PDF
                                         </a></td>
+                                   
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>2017</td>
-                                    <td>Koran PASWARA Edisi 1 Tahun 2017</td>
+                                    <td>Garrett</td>
+                                    <td>Winters</td>
+                                    <td>Accountant</td>
                                     <td><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
-                                            <img class="icon-md"
+                                            <img class="icon-sm"
                                                 src="assets/media/svg/icons/Files/DownloadedFile.svg" /> Download PDF
                                         </a></td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>2017</td>
-                                    <td>Koran PASWARA Edisi 1 Tahun 2017</td>
-                                    <td><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
-                                            <img class="icon-md"
-                                                src="assets/media/svg/icons/Files/DownloadedFile.svg" /> Download PDF
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>2017</td>
-                                    <td>Koran PASWARA Edisi 1 Tahun 2017</td>
-                                    <td><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
-                                            <img class="icon-md"
-                                                src="assets/media/svg/icons/Files/DownloadedFile.svg" /> Download PDF
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>2017</td>
-                                    <td>Koran PASWARA Edisi 1 Tahun 2017</td>
-                                    <td><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
-                                            <img class="icon-md"
-                                                src="assets/media/svg/icons/Files/DownloadedFile.svg" /> Download PDF
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>2017</td>
-                                    <td>Koran PASWARA Edisi 1 Tahun 2017</td>
-                                    <td><a href="#" class="btn btn-light-primary font-weight-bold mr-2">
-                                            <img class="icon-md"
-                                                src="assets/media/svg/icons/Files/DownloadedFile.svg" /> Download PDF
-                                        </a></td>
+                                   
                                 </tr>
 
                             </tbody>
-
                         </table>
-                        <!--end: Datatable-->
                     </div>
                 </div>
                 <!--end::Card-->
@@ -106,3 +67,9 @@
     <!--end::Container-->
 </div>
 <!--end::Entry-->
+
+<script>
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>
