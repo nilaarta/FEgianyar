@@ -137,3 +137,5 @@
 <script src="assets/js/pages/custom/profile/profile.js?v=7.0.6"></script>
 <!--end::Page Scripts -->
 
+<!-- sharerr -->
+<script type='text/javascript' src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>

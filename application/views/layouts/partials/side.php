@@ -1,13 +1,13 @@
 <div class="col-xl-3">
     <!--begin::Engage Widget 4-->
-    <div class="card card-custom bgi-no-repeat gutter-b bg-primary-o-50"
+    <div class="card card-custom bgi-no-repeat gutter-b bg-light"
         style="height: 175px; #663259; background-position: calc(100% + 0.5rem) 100%; background-size: 100% auto;">
 
         <!--begin::Body-->
         <div class="card-body d-flex align-items-center">
             <!--begin::Body-->
             <a href="<?php echo site_url('/foto') ?>">
-                <div class="card-body bg-primary rounded" style="
+                <div class="card-body bg-gray-300 rounded" style="
                                     padding-top: 10px;
                                     padding-bottom: 10px;
                                     border-top-width: 5px;
@@ -40,7 +40,7 @@
             <!--begin::Body-->
             <a href="<?php echo site_url('/video') ?>">
 
-                <div class="card-body bg-primary rounded" style="
+                <div class="card-body bg-gray-300 rounded" style="
                                     padding-top: 10px;
                                     padding-bottom: 10px;
                                     border-top-width: 5px;

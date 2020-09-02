@@ -33,17 +33,17 @@
 
         <div class="text-dark order-1 order-md-2 align-items-left">
             <div class="row">
-                <a href="http://keenthemes.com/metronic" target="_blank" class="form-text text-muted">
+                <a href="https://www.facebook.com/pemkabgianyar/" target="_blank" class="form-text text-muted">
                     <i class="socicon-facebook text-info icon-md ml-2 "></i>
                     pemkabgianyar</a>
             </div>
             <div class="row">
-                <a href="http://keenthemes.com/metronic" target="_blank" class="form-text text-muted">
+                <a href="https://twitter.com/PemkabGianyar" target="_blank" class="form-text text-muted">
                     <i class="socicon-twitter text-info icon-md ml-2"></i>
                     pemkabgianyar</a> </div>
 
             <div class="row">
-                <a href="http://keenthemes.com/metronic" target="_blank" class="form-text text-muted">
+                <a href="https://www.instagram.com/pemkab_gianyar/" target="_blank" class="form-text text-muted">
                     <i class="socicon-instagram text-info icon-md ml-2"></i>
                     pemkab_gianyar</a> </div>
         </div>

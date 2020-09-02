@@ -14,7 +14,8 @@
 <link href="<?php echo base_url('assets/plugins/custom/prismjs/prismjs.bundle.css') ?>" rel="stylesheet"
     type="text/css" />
 <link href="<?php echo base_url('assets/css/style.bundle.css') ?>" rel="stylesheet" type="text/css" />
-<!--  -->
+<link href="<?php echo base_url('assets/css/preloaders.css') ?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url('assets/css/custom.css') ?>" rel="stylesheet" type="text/css" />
 <!--end::Global Theme Styles-->
 <!--begin::Layout Themes(used by all pages)-->
 <!--end::Layout Themes-->
@@ -38,7 +39,7 @@
 <link rel="stylesheet" href="assets/css/aos.css">
 <link rel="stylesheet" href="assets/css/fancybox.min.css">
 
-<link rel="stylesheet" href="assets/css/style1.css">
+<!-- <link rel="stylesheet" href="assets/css/style1.css"> -->
 
 <!-- detail video -->
 

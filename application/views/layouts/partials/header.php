@@ -5,7 +5,7 @@
         <div class="d-flex align-items-stretch mr-3">
             <!--begin::Header Logo-->
             <div class="header-logo">
-                <a href="/">
+                <a href="<?php echo site_url('/') ?>">
                     <img alt="Logo"
                         src="<?php echo base_url('assets/img/profile/polres.png')?><?php echo $this->session->userdata('instansi_logo')?>"
                         class="logo-default max-h-40px" />
@@ -100,32 +100,47 @@
     <div class=" container  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
         <!--begin::Info-->
         <div id="news-container1" style="overflow: hidden; position: relative; width: 60%;">
-            <ul> 
+            <ul>
                 <li style="margin: 0pt; padding: 0pt; height: 100%; display: list-item;">
-                    <h1 class="text-white"  style="margin: 0pt; padding: 0pt;">
+                    <h1 class="text-white" style="margin: 0pt; padding: 0pt;">
                         Selamat Ulang Tahun Indonesia Ke75 Selamat Ulang Tahun Indonesia Ke75
-                       
+
                     </h1>
                 </li>
 
             </ul>
         </div>
+        <div class="container">
+  <div class="row">
+<div class="collapse" id="collapseTop">
+  <div class="card card-body">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+<p class="text-center">
+  <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseTop" aria-expanded="false" aria-controls="collapseTop">
+    Expand/Collapse Top
+  </button>
+  <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseBottom" aria-expanded="false" aria-controls="collapseBottom">
+    Expand/Collapse Bottom
+  </button>
+</p>
+<div class="collapse" id="collapseBottom">
+  <div class="card card-body">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+  </div>
+</div>
         <!--end::Info-->
 
         <!--begin::Heading-->
         <div class="d-flex flex-column">
-            <!--begin::Title-->
-            <a class="text-white text-hover-white opacity-75 hover-opacity-100">
-                23:45 </a>
-            <!--end::Title-->
-
-            <!--begin::Breadcrumb-->
-                <!--begin::Item-->
-                <a class="text-white text-hover-white opacity-75 hover-opacity-100">
-                    Jumat, 17 Agustus 2020 </a>
-                <!--end::Item-->
-
-            <!--end::Breadcrumb-->
+            <div class="wrapper">
+                <div id="date" class="text-white text-hover-white opacity-75 hover-opacity-100"></div>
+                <div id="time" class="text-white text-hover-white opacity-75 hover-opacity-100"></div>
+            </div>
         </div>
         <!--end::Heading-->
     </div>
@@ -149,4 +164,56 @@
             showItems: 1
         });
     });
+    (function () {
+        'use strict';
+
+        function getDate() {
+            var date = new Date();
+            var weekday = date.getDay();
+            var month = date.getMonth();
+            var day = date.getDate();
+            var year = date.getFullYear();
+            var hour = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+
+            if (hour < 10) hour = "0" + hour;
+            if (minutes < 10) minutes = "0" + minutes;
+            if (seconds < 10) seconds = "0" + seconds;
+
+            var monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Augustus", "September",
+                "Oktober", "November", "Desember"
+            ];
+
+            var weekdayNames = ["Minggu", "Senen", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+
+            var monthColors = ["#1E90FF", "#FF69B4", "#00FFFF", "#7CFC00", "#00CED1", "#FF1493", "#00008B",
+                "#FF7F50", "#C71585", "#FF4500", "#FFD700", "#800000"
+            ]
+
+            var ampm = " pm ";
+
+            if (hour < 12) ampm = " am ";
+
+            if (hour > 12) hour -= 12;
+
+            var showDate = weekdayNames[weekday] + ", " + day + " " + monthNames[month] + " " + year;
+
+            var showTime = hour + ":" + minutes + ":" + seconds + ampm;
+
+            var color = monthColors[month];
+
+            document.getElementById('date').innerHTML = showDate;
+
+            document.getElementById('time').innerHTML = showTime;
+
+            document.bgColor = color;
+
+
+            requestAnimationFrame(getDate);
+        }
+
+        getDate();
+
+    }());
 </script>
