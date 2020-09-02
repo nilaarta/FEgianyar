@@ -54,7 +54,7 @@
                             <img alt="Preview Image 2" src="images/thumbs/thumb2.jpg" data-image="images/big/image2.jpg"
                                 data-description="Preview Image 2 Description">
 
-                            <img alt="Youtube Video" data-type="youtube" data-videoid="A3PDXmYoF5U"
+                            <img alt="Youtube Video" data-type="youtube" data-videoid="I6b9L1-7xiQ"
                                 data-description="You can include youtube videos easily!">
 
                             <img alt="Preview Image 3" src="images/thumbs/thumb3.jpg" data-image="images/big/image3.jpg"
