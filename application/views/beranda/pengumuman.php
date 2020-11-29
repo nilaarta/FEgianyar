@@ -27,6 +27,7 @@
                             padding-bottom: 0px;
                         ">
                         <div class="row">
+                        <div class ="col-xl-12">
                             <!--begin::Card-->
                             <div class="card card-custom gutter-b">
                                 <div class="card-body" style="
@@ -72,18 +73,7 @@
                                                                     class="text-box flex-grow-1 font-weight-bold text-dark-50 py-2 py-lg-2 mr-5"
                                                                     style="width:100%">
                                                                     <p>
-                                                                        I distinguish three main text objectives could
-                                                                        be
-                                                                        merely
-                                                                        I distinguish three main text objectives could
-                                                                        be
-                                                                        merely
-                                                                        I distinguish three main text objectives could
-                                                                        be
-                                                                        merely
-                                                                        I distinguish three main text objectives could
-                                                                        be
-                                                                        merely
+                                                                        I distinguish
                                                                     </p>
                                                                 </div>
                                                                 <!--end::Description-->
@@ -114,7 +104,7 @@
                             </div>
                             <!--end::Card-->
 
-
+</div>
                         </div>
                     </div>
                     <!-- end berita 1 -->

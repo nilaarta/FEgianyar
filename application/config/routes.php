@@ -156,6 +156,8 @@ $route['detailpengumuman'] = 'detail/pengumuman';
 $route['detailagendakegiatan'] = 'detail/agendakegiatan';
 
 
+$route['menu'] = 'menu';
+
 
 
 
