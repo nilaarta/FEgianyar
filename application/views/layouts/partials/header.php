@@ -110,6 +110,32 @@
 
             </ul>
         </div>
+<<<<<<< HEAD
+=======
+        <div class="container">
+  <div class="row">
+<div class="collapse" id="collapseTop">
+  <div class="card card-body">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+<p class="text-center">
+  <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseTop" aria-expanded="false" aria-controls="collapseTop">
+    Expand/Collapse Top
+  </button>
+  <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseBottom" aria-expanded="false" aria-controls="collapseBottom">
+    Expand/Collapse Bottom
+  </button>
+</p>
+<div class="collapse" id="collapseBottom">
+  <div class="card card-body">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+  </div>
+</div>
+>>>>>>> parent of a23215c... aman
         <!--end::Info-->
 
         <!--begin::Heading-->
@@ -149,4 +175,59 @@
             showItems: 1
         });
     });
+<<<<<<< HEAD
+=======
+    (function () {
+        'use strict';
+
+        function getDate() {
+            var date = new Date();
+            var weekday = date.getDay();
+            var month = date.getMonth();
+            var day = date.getDate();
+            var year = date.getFullYear();
+            var hour = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+
+            if (hour < 10) hour = "0" + hour;
+            if (minutes < 10) minutes = "0" + minutes;
+            if (seconds < 10) seconds = "0" + seconds;
+
+            var monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Augustus", "September",
+                "Oktober", "November", "Desember"
+            ];
+
+            var weekdayNames = ["Minggu", "Senen", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+
+            var monthColors = ["#1E90FF", "#FF69B4", "#00FFFF", "#7CFC00", "#00CED1", "#FF1493", "#00008B",
+                "#FF7F50", "#C71585", "#FF4500", "#FFD700", "#800000"
+            ]
+
+            var ampm = " pm ";
+
+            if (hour < 12) ampm = " am ";
+
+            if (hour > 12) hour -= 12;
+
+            var showDate = weekdayNames[weekday] + ", " + day + " " + monthNames[month] + " " + year;
+
+            var showTime = hour + ":" + minutes + ":" + seconds + ampm;
+
+            var color = monthColors[month];
+
+            document.getElementById('date').innerHTML = showDate;
+
+            document.getElementById('time').innerHTML = showTime;
+
+            document.bgColor = color;
+
+
+            requestAnimationFrame(getDate);
+        }
+
+        getDate();
+
+    }());
+>>>>>>> parent of a23215c... aman
 </script>
