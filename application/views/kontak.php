@@ -123,9 +123,10 @@
                                             <!--begin::Actions-->
                                             <div class="card-footer">
                                                 <div class="row">
+                                                    <div class="col-xl-3"></div>
                                                     <div class="col-xl-6">
-                                                        <button type="submit"
-                                                            class="btn btn-primary btn-block font-weight-bold mr-2">Kirim</button>
+                                                        <button type="reset"
+                                                            class="btn btn-primary font-weight-bold mr-2">Kirim</button>
                                                     </div>
                                                     <div class="col-xl-3"></div>
                                                 </div>

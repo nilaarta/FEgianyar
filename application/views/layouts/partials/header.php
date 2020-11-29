@@ -110,7 +110,29 @@
 
             </ul>
         </div>
-        
+        <div class="container">
+  <div class="row">
+<div class="collapse" id="collapseTop">
+  <div class="card card-body">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+<p class="text-center">
+  <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseTop" aria-expanded="false" aria-controls="collapseTop">
+    Expand/Collapse Top
+  </button>
+  <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseBottom" aria-expanded="false" aria-controls="collapseBottom">
+    Expand/Collapse Bottom
+  </button>
+</p>
+<div class="collapse" id="collapseBottom">
+  <div class="card card-body">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+  </div>
+</div>
         <!--end::Info-->
 
         <!--begin::Heading-->
@@ -195,5 +217,3 @@
 
     }());
 </script>
-
-# Tombol kirim di kontak
