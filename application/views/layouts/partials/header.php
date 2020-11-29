@@ -111,7 +111,10 @@
             </ul>
         </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of a23215c... aman
         <div class="container">
   <div class="row">
 <div class="collapse" id="collapseTop">
@@ -135,6 +138,9 @@
 
   </div>
 </div>
+<<<<<<< HEAD
+>>>>>>> parent of a23215c... aman
+=======
 >>>>>>> parent of a23215c... aman
         <!--end::Info-->
 
@@ -229,5 +235,8 @@
         getDate();
 
     }());
+<<<<<<< HEAD
+>>>>>>> parent of a23215c... aman
+=======
 >>>>>>> parent of a23215c... aman
 </script>
