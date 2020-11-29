@@ -34,8 +34,19 @@
                             <!--end::Copyright-->
 
                             <!--begin::Nav-->
-                            <?php $this->load->view('layouts/partials/sosial') ?>
+                            <div class="nav nav-dark order-1 order-md-2">
+                                <a href="#" class="btn btn-icon btn-light-facebook mr-2"><i
+                                        class="socicon-facebook"></i></a>
+                                <a href="#" class="btn btn-icon btn-light-linkedin mr-2"><i
+                                        class="socicon-linkedin"></i></a>
+                                <a href="#" class="btn btn-icon btn-light-twitter mr-2"><i
+                                        class="socicon-twitter"></i></a>
+                                <a href="#" class="btn btn-icon btn-light-youtube mr-2"><i
+                                        class="socicon-googleplus"></i></a>
+                                <a href="#" class="btn btn-icon btn-light-success mr-2"><i
+                                        class="socicon-whatsapp"></i></a>
 
+                            </div>
                             <!--end::Nav-->
                         </div>
                         <!--end::Container-->

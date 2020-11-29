@@ -83,10 +83,10 @@
                 <!--begin::Tiles Widget 13-->
                 <div class="card card-custom bgi-no-repeat gutter-b"
                     style="height: auto; background-color: #663259; background-position: calc(100% + 0.5rem) 100%; background-size: 100% auto; background-image: url(assets/media/svg/patterns/taieri.svg)">
-                    <a href="google.com">
-                        <!--begin::Body-->
-                        <img src="assets/img/kpk.jpg" class="d-block w-100 rounded" alt="...">
-                    </a>
+
+                    <!--begin::Body-->
+                    <img src="assets/img/kpk.jpg" class="d-block w-100 rounded" alt="...">
+
                     <!--end::Body-->
                 </div>
                 <!--end::Tiles Widget 13-->
@@ -96,11 +96,10 @@
                         <!--begin::Engage Widget 4-->
                         <div class="card card-custom bgi-no-repeat gutter-b"
                             style="height: auto; background-color: #663259; background-position: calc(100% + 0.5rem) 100%; background-size: 100% auto; background-image: url(assets/media/svg/patterns/taieri.svg)">
-                            <a href="google.com">
 
-                                <!--begin::Body-->
-                                <img src="assets/img/bahan.jpg" class="d-block w-100 rounded" alt="...">
-                            </a>
+                            <!--begin::Body-->
+                            <img src="assets/img/bahan.jpg" class="d-block w-100 rounded" alt="...">
+
                             <!--end::Body-->
                         </div>
                         <!--end::Engage Widget 4-->
@@ -109,25 +108,23 @@
                         <!--begin::Engage Widget 4-->
                         <div class="card card-custom bgi-no-repeat gutter-b"
                             style="height: auto; background-color: #663259; background-position: calc(100% + 0.5rem) 100%; background-size: 100% auto; background-image: url(assets/media/svg/patterns/taieri.svg)">
-                            <a href="google.com">
 
-                                <!--begin::Body-->
-                                <img src="assets/img/paswara.jpg" class="d-block w-100 rounded" alt="...">
-                            </a>
+                            <!--begin::Body-->
+                            <img src="assets/img/paswara.jpg" class="d-block w-100 rounded" alt="...">
+
                             <!--end::Body-->
                         </div>
                         <!--end::Engage Widget 4-->
                     </div>
-
+                                       
                     <div class="col-xl-6">
                         <!--begin::Engage Widget 4-->
                         <div class="card card-custom bgi-no-repeat gutter-b"
                             style="height: auto; background-color: #663259; background-position: calc(100% + 0.5rem) 100%; background-size: 100% auto; background-image: url(assets/media/svg/patterns/taieri.svg)">
-                            <a href="google.com">
 
-                                <!--begin::Body-->
-                                <img src="assets/img/ppid.jpg" class="d-block w-100 rounded" alt="...">
-                            </a>
+                            <!--begin::Body-->
+                            <img src="assets/img/ppid.jpg" class="d-block w-100 rounded" alt="...">
+
                             <!--end::Body-->
                         </div>
                         <!--end::Engage Widget 4-->
@@ -136,11 +133,10 @@
                         <!--begin::Engage Widget 4-->
                         <div class="card card-custom bgi-no-repeat gutter-b"
                             style="height: auto; background-color: #663259; background-position: calc(100% + 0.5rem) 100%; background-size: 100% auto; background-image: url(assets/media/svg/patterns/taieri.svg)">
-                            <a href="google.com">
 
-                                <!--begin::Body-->
-                                <img src="assets/img/paswara.jpg" class="d-block w-100 rounded" alt="...">
-                            </a>
+                            <!--begin::Body-->
+                            <img src="assets/img/paswara.jpg" class="d-block w-100 rounded" alt="...">
+
                             <!--end::Body-->
                         </div>
                         <!--end::Engage Widget 4-->
@@ -149,7 +145,7 @@
                 <!--end::Row-->
 
                 <div class="row">
-
+                   
                 </div>
             </div>
         </div>
@@ -157,7 +153,7 @@
 
         <!--begin::Row-->
         <div class="row">
-            <div class="col-xl-9">
+            <div class="col-xl-9" >
                 <div class="row">
                     <div class="col-xl-6">
                         <!--begin::Engage Widget 4-->
